@@ -1,0 +1,12 @@
+<h2>Number of articles per topic, in descending order</h2>
+
+<%= pie_chart @articles_per_topic %>
+
+<h2>Top 10 publishers by number of articles published</h2>
+
+<%= pie_chart @articles_per_publisher %>
+
+<h2> Articles "last updated" per year</h2>
+
+<%= column_chart @articles.group_by_year { |article|
+article.last_updated}.map { |date, articles| [date, articles.size] }  %>
