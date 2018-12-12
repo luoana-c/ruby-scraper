@@ -1,6 +1,12 @@
+<h2>Total number of topics: <%= @topics.length %> </h2>
+
+<h2>Total number of articles: <%= @articles.length %> </h2>
+
 <h2>Number of articles per topic, in descending order</h2>
 
 <%= pie_chart @articles_per_topic %>
+
+<h2>Total number of publishers: <%= @publishers.length %> </h2>
 
 <h2>Top 10 publishers by number of articles published</h2>
 

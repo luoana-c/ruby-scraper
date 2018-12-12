@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a scraper which uses Nokogiri Ruby gem; The collected data is inserted into a Postgres db. Some statistics are displayed as a web page with Ruby on Rails and Chartkick
 
-Things you may want to cover:
+* Ruby version: 2.3.3
 
-* Ruby version
+In order to run the scraper, and then set-up the database which feeds the Rails web app: 
+* You need to have Ruby, Ruby on Rails and PostgreSQL installed
+* If you have a different Ruby version installed, just comment out the Ruby version in the Gemfile
 
-* System dependencies
+Other steps:
+* bundle install
+* rails db:create
+* rails db:migrate
+* ruby scraper.rb (it takes a while to finish)
+* rails s and go to http://localhost:3000/statistics (or whichever port you selected)
 
-* Configuration
+This is how the statistics page looks like: 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
