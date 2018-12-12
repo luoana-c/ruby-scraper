@@ -15,5 +15,12 @@ Other steps:
 * ruby scraper.rb (it takes a while to finish)
 * rails s and go to http://localhost:3000/statistics (or whichever port you selected)
 
+
+
 This is how the statistics page looks like: 
+
+![alt text](https://github.com/luoana-c/ruby-scraper/blob/master/images/Screen%20Shot%202018-12-12%20at%2013.53.51.png)
+![alt_text](https://github.com/luoana-c/ruby-scraper/blob/master/images/Screen%20Shot%202018-12-12%20at%2013.36.35.png)
+![alt_text](https://github.com/luoana-c/ruby-scraper/blob/master/images/Screen%20Shot%202018-12-12%20at%2013.47.41.png)
+
 
